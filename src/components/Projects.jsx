@@ -5,18 +5,13 @@ function Projects() {
 
       <div className="projects-grid">
         <div className="project-card">
-          <h3>E-commerce UI</h3>
-          <p>Modern shopping interface built with React.</p>
-          <a href="http://localhost:5174/">
+          <h3>Travel Agency Website</h3>
+          <p>Modern travel booking interface built with React.</p>
+          <a href="https://travel-agency-azure-omega.vercel.app//">
             <button>View Projects</button>
           </a>
         </div>
 
-        <div className="project-card">
-          <h3>Dashboard</h3>
-          <p>Responsive admin dashboard with charts.</p>
-          <button>View Project</button>
-        </div>
 
         <div className="project-card">
           <h3>Landing Page</h3>

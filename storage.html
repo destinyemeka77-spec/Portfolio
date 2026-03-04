@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  body {
+    background-color: gray;
+    color: white;
+    font-size: bold;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    padding: 10px;
+    color: brown;
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+   <h2>Javscript Storage</h2>
+    <h3 id="store"></h3>
+    <script>
+      localStorage.setItem("password", "Onyxdatasystem")
+      localStorage.setItem("Confrim password", "Onyxdatastem")
+      let value = localStorage.getItem("password")
+      document.getElementById("store").innerHTML = "The password is:" + value
+    </script>
+
+  <h1>Session storage</h1>
+<p id="ses"></p>
+</body>
+<script>
+  sessionStorage.setItem("product", "Air fryer")
+  sessionStorage.setItem("price", "N5,000")
+  let value1 = sessionStorage.getItem("price")
+  document.getElementById("ses").innerHTML = "The price is: " + value1
+</script>
+</html>

@@ -7,18 +7,25 @@ function Projects() {
         <div className="project-card">
           <h3>Travel Agency Website</h3>
           <p>Modern travel booking interface built with React.</p>
-          <a href="https://travel-agency-azure-omega.vercel.app//">
-            <button>View Projects</button>
+          <a href="https://travel-agency-azure-omega.vercel.app/">
+            <button>View Project</button>
           </a>
         </div>
-
 
         <div className="project-card">
           <h3>Landing Page</h3>
           <p>High-converting product landing page.</p>
-       <a href="https://agency-website-chi-seven.vercel.app/">
-        <button>View Project</button>
-       </a>
+          <a href="https://agency-website-chi-seven.vercel.app/">
+            <button>View Project</button>
+          </a>
+        </div>
+
+        <div className="project-card">
+          <h3>E-commerce Website</h3>
+          <p>Modern E-commerce site for your household products.</p>
+          <a href="https://prime-home-seven.vercel.app/">
+            <button>View Project</button>
+          </a>
         </div>
       </div>
     </section>
